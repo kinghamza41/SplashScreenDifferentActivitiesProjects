@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnimationImplementation">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation"
+            android:id="@+id/btnfadein" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvfadein"
+            android:text="Fadein"
+            android:textColor="#E9D420"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation2"
+            android:id="@+id/btnfadeout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvfadeout"
+            android:text="Fadeout"
+            android:textColor="#ABB82B"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation3"
+            android:id="@+id/btnblink" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvblink"
+            android:text="Blinking Effect"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation4"
+            android:id="@+id/btnzoomin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvzoomin"
+            android:text="Zoom In(Effect)"
+            android:textColor="#1986DF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation5"
+            android:id="@+id/btnzoomout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvzoomout"
+            android:text="Zoom Out(Effect)"
+            android:textColor="#079687"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation6"
+            android:id="@+id/btnrotate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvrotate"
+            android:text="Rotation "
+            android:textColor="#F19A06"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation7"
+            android:id="@+id/btnmove" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvmove"
+            android:text="Movement "
+            android:textColor="#5B33A2"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation8"
+            android:id="@+id/btnsequential" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvsequential"
+            android:text="Sequential Order"
+            android:textColor="#0D9E11"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation8"
+            android:id="@+id/btnslideup" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvslideup"
+            android:text="Slide Up "
+            android:textColor="#E040FB"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation9"
+            android:id="@+id/btnslidedown" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvslidedown"
+            android:text="Slide Down "
+            android:textColor="#C51162"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animation10"
+            android:id="@+id/btnbounce" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvbounce"
+            android:text="Bounce"
+            android:textColor="#00C853"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50sp"/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
